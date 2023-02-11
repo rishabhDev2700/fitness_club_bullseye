@@ -15,7 +15,6 @@ export function RegistrationForm() {
         };
         const temp = [...context.members, data];
         context.setMembers(temp);
-        console.table(data);
         alert("Member Added Successfully")
   };
   return (
@@ -37,6 +36,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index:5;
 `;
 
 export const Heading = styled.h1`
@@ -55,6 +55,7 @@ const Form = styled.form`
   border: 2px solid black;
   padding: 3rem;
   background-color: white;
+  z-index:10;
 `;
 
 const Input = styled.input`

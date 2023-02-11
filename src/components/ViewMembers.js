@@ -5,7 +5,7 @@ import { Container, Heading, NavLink } from "./RegistrationForm";
 
 export const ViewMembers = () => {
   const context = useContext(MembersContext);
-  const list = context.members.map((item, index) => {
+  const list = context.members.map((item) => {
     return (
       <Tr>
         <Td>{item.name}</Td>
@@ -15,6 +15,7 @@ export const ViewMembers = () => {
       </Tr>
     );
   });
+  
   return (
     <Container>
       <Heading>Member List</Heading>
