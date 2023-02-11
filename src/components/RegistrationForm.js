@@ -27,7 +27,7 @@ export function RegistrationForm() {
         <TextArea rows="20" cols="65" name="address" placeholder="Address" />
         <Submit type="submit" value="Add Member" />
       </Form>
-      <NavLink to="/members">View Member List</NavLink>
+      <NavLink to="fitness_club_bullseye/members">View Member List</NavLink>
     </Container>
   );
 }

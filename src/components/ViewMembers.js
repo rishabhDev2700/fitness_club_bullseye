@@ -28,7 +28,7 @@ export const ViewMembers = () => {
         </Tr>
         {list}
       </Table>
-      <NavLink to="/">Back to Home</NavLink>
+      <NavLink to="fitness_club_bullseye/">Back to Home</NavLink>
     </Container>
   );
 };
