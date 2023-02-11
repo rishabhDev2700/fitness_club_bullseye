@@ -15,8 +15,8 @@ function App() {
       <Container>
         <Router>
           <Routes>
-          <Route path="/" element={<RegistrationForm />} />
-          <Route path="/members" element={<ViewMembers />} />            
+          <Route path="fitness_club_bullseye/" element={<RegistrationForm />} />
+          <Route path="fitness_club_bullseye/members" element={<ViewMembers />} />            
           </Routes>
         </Router>
       </Container>
