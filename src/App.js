@@ -16,7 +16,7 @@ function App() {
         <Router>
           <Routes>
           <Route path="fitness_club_bullseye/" element={<RegistrationForm />} />
-          <Route path="fitness_club_bullseye/members" element={<ViewMembers />} />            
+          <Route path="/members" element={<ViewMembers />} />            
           </Routes>
         </Router>
       </Container>
